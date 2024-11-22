@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/orange_border"
+    android:backgroundTint="#77DE5248"
+    android:padding="10dp">
+
+    <!-- TextView to display note content -->
+    <TextView
+        android:id="@+id/noteTextView"
+        android:layout_width="300dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/agbalumo"
+        android:padding="10dp"
+        android:text="Note text will appear here"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <!-- ImageView for updating the note -->
+    <ImageView
+        android:id="@+id/updateButton"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="51dp"
+        android:src="@drawable/baseline_create_24" />
+
+    <!-- ImageView for deleting the note -->
+    <ImageView
+        android:id="@+id/deleteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="7dp"
+        android:src="@drawable/baseline_auto_delete_24" />
+</RelativeLayout>

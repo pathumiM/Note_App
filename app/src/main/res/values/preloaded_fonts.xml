@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/agbalumo</item>
+        <item>@font/aladin</item>
+        <item>@font/amarante</item>
+        <item>@font/bilbo_swash_caps</item>
+        <item>@font/bubblegum_sans</item>
+        <item>@font/coiny</item>
+        <item>@font/creepster</item>
+        <item>@font/princess_sofia</item>
+    </array>
+</resources>
